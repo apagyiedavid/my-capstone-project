@@ -24,11 +24,10 @@ import Navbar from './Navbar'; // Adjust the path to your Navbar component
         {/* Hero Content */}
         <div className="container mx-auto px-6 flex-grow flex flex-col justify-center items-start text-left">
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 max-w-3xl">
-            Design Your Future with Precision
+            Welcome to Jesus Mission Church
           </h1>
           <p className="text-xl md:text-2xl text-blue-100 max-w-2xl mb-8">
-            Experience the perfect blend of aesthetics and performance. 
-            Our platform helps you build stunning interfaces in record time.
+            A place of worship, fellowship, and spiritual growth.
           </p>
           <button className="bg-white text-blue-900 px-8 py-3 rounded-md font-semibold hover:bg-blue-50 transition-colors">
             Get Started
@@ -36,6 +35,7 @@ import Navbar from './Navbar'; // Adjust the path to your Navbar component
         </div>
       </div>
     </header>
+    
   );
 };
 

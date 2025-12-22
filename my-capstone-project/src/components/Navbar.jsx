@@ -7,9 +7,10 @@ const Navbar = () => {
       <h1 className="font-bold">Jesus Mission Church</h1>
       <div className="space-x-4">
         <Link to="/">Home</Link>
-        <Link to="/dashboard">Dashboard</Link>
-        <Link to="/comments">Comments</Link>
-        <Link to="/register">Register</Link>
+        <Link to="/dashboard">About</Link>
+        <Link to="/comments">Sermons</Link>
+        <Link to="/register">Contact</Link>
+        <Link to="/commentcard">Commentcard</Link>
       </div>
     </nav>
   );

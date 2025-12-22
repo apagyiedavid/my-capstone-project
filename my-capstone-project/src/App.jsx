@@ -1,8 +1,9 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
 import Home from "./pages/Home";
+import ThreeCards from "./pages/ThreeCards";
+import CommentCard from "./components/CommentCard";
 
 const App = () => {
   return (
@@ -10,6 +11,8 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>
+      <ThreeCards />
+      <CommentCard />
       <Footer />
     </BrowserRouter>
   );
