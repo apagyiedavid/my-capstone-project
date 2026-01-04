@@ -1,21 +1,21 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
+import Header from "./components/Header";
 import Footer from "./components/Footer";
-
-import Home from "./pages/Home";
+import Register  from "./pages/Register";
 import ThreeCards from "./pages/ThreeCards";
-import CommentCard from "./components/CommentCard";
+import Card from "./components/Card";
 
-const App = () => {
+function App() {
   return (
     <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-      </Routes>
-      <ThreeCards />
-      <CommentCard />
+      <Header />
+        <ThreeCards />
+        <Card />
+        <Register />
+      {/* your Routes go here */}
       <Footer />
     </BrowserRouter>
   );
-};
+}
 
 export default App;

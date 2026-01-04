@@ -1,6 +1,6 @@
 const ThreeCards = () => {
   return (
-    <div className=" bg-gray-100 min-h-screen">
+    <div className=" bg-gray-100 h-auto-screen">
       <h2 className="text-2xl font-bold text-center mb-6">
         Church Activities
       </h2>

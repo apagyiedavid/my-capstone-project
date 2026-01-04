@@ -1,6 +1,6 @@
 const CommentCard = () => {
   return (
-    <div className="p-2 bg-gray-100 min-h-screen">
+    <div className="p-2 bg-gray-100 py-16-screen">
       <h2 className="text-2xl font-bold text-center mb-6">
         Comments
       </h2>
@@ -13,7 +13,7 @@ const CommentCard = () => {
          alt="Church"
          className="w-12 h-12 mx-left rounded-full object-contain"
          />
-          <h3 className="text-lg font-semibold mb-2 text-center">
+          <h3 className="text-lg font-semibold mb-2">
             King David
           </h3>
         </div>
